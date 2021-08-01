@@ -1,0 +1,2357 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC IEEE_DBL LFSROK SPEEDOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F24K40 ]
+[d frameptr 4065 ]
+"147 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[e E11051 mtouch_sensor_names `uc
+Sensor_ANA0 0
+Sensor_ANA1 1
+Sensor_ANA2 2
+Sensor_ANA3 3
+Sensor_ANA4 4
+Sensor_ANA5 5
+Sensor_ANA6 6
+Sensor_ANA7 7
+Sensor_ANB0 8
+Sensor_ANB1 9
+Sensor_ANB2 10
+Sensor_ANB3 11
+Sensor_ANB4 12
+Sensor_ANB5 13
+]
+"199
+[e E11066 mtouch_sensor_error `c
+MTOUCH_SENSOR_ERROR_none 0
+MTOUCH_SENSOR_ERROR_invalid_index -1
+MTOUCH_SENSOR_ERROR_interrupt_notEnabled -2
+MTOUCH_SENSOR_ERROR_invalid_calibrate -3
+MTOUCH_SENSOR_ERROR_tooManyRetries -4
+MTOUCH_SENSOR_ERROR_scanOverrun -5
+MTOUCH_SENSOR_ERROR_interruptedScan -6
+]
+"98 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[e E11001 mtouch_button_names `uc
+Button0 0
+Button1 1
+Button2 2
+Button3 3
+Button4 4
+Button5 5
+Button6 6
+Button7 7
+Button8 8
+Button9 9
+Button10 10
+Button11 11
+Slider1_Seg0 12
+Slider1_Seg1 13
+]
+[e E10932 mtouch_sensor_names `uc
+Sensor_ANA0 0
+Sensor_ANA1 1
+Sensor_ANA2 2
+Sensor_ANA3 3
+Sensor_ANA4 4
+Sensor_ANA5 5
+Sensor_ANA6 6
+Sensor_ANA7 7
+Sensor_ANB0 8
+Sensor_ANB1 9
+Sensor_ANB2 10
+Sensor_ANB3 11
+Sensor_ANB4 12
+Sensor_ANB5 13
+]
+[e E11407 mtouch_button_state `uc
+MTOUCH_BUTTON_STATE_initializing 0
+MTOUCH_BUTTON_STATE_notPressed 1
+MTOUCH_BUTTON_STATE_pressed 2
+]
+[e E11411 mtouch_button_aks_group `uc
+No_AKS_Group 0
+AKS_Group_1 1
+AKS_Group_2 2
+AKS_Group_3 3
+AKS_Group_4 4
+AKS_Group_5 5
+AKS_Group_6 6
+AKS_Group_7 7
+Max_AKS_Group 8
+]
+"412
+[e E11421 mtouch_button_hysteresis_thresholds `uc
+HYST_50_PERCENT 1
+HYST_25_PERCENT 2
+HYST_12_5_PERCENT 3
+HYST_6_25_PERCENT 4
+HYST_MAX 5
+]
+"103 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_slider.c
+[e E11254 mtouch_slider_names `uc
+Slider1 0
+]
+[e E11251 mtouch_slider_type `uc
+MTOUCH_TYPE_SLIDER 0
+MTOUCH_TYPE_WHEEL 1
+]
+[e E10890 mtouch_sensor_names `uc
+Sensor_ANA0 0
+Sensor_ANA1 1
+Sensor_ANA2 2
+Sensor_ANA3 3
+Sensor_ANA4 4
+Sensor_ANA5 5
+Sensor_ANA6 6
+Sensor_ANA7 7
+Sensor_ANB0 8
+Sensor_ANB1 9
+Sensor_ANB2 10
+Sensor_ANB3 11
+Sensor_ANB4 12
+Sensor_ANB5 13
+]
+"108
+[e E10959 mtouch_button_names `uc
+Button0 0
+Button1 1
+Button2 2
+Button3 3
+Button4 4
+Button5 5
+Button6 6
+Button7 7
+Button8 8
+Button9 9
+Button10 10
+Button11 11
+Slider1_Seg0 12
+Slider1_Seg1 13
+]
+"666
+[e E11323 mtouch_slider_state `uc
+MTOUCH_SLIDER_STATE_initializing 0
+MTOUCH_SLIDER_STATE_notPressed 1
+MTOUCH_SLIDER_STATE_pressed 2
+]
+"123 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/i2c1.c
+[e E10849 . `uc
+I2C1_SLAVE_WRITE_REQUEST 0
+I2C1_SLAVE_READ_REQUEST 1
+I2C1_SLAVE_WRITE_COMPLETED 2
+I2C1_SLAVE_READ_COMPLETED 3
+I2C1_SLAVE_GENERAL_CALL_REQUEST 4
+]
+"199
+[e E10981 . `uc
+SLAVE_NORMAL_DATA 0
+SLAVE_DATA_ADDRESS 1
+SLAVE_GENERAL_CALL 2
+]
+"252 D:\Projects\LED\Alex\Lock\Locker.X\main.c
+[e E10959 mtouch_button_names `uc
+Button0 0
+Button1 1
+Button2 2
+Button3 3
+Button4 4
+Button5 5
+Button6 6
+Button7 7
+Button8 8
+Button9 9
+Button10 10
+Button11 11
+Slider1_Seg0 12
+Slider1_Seg1 13
+]
+"278
+[e E11025 mtouch_slider_names `uc
+Slider1 0
+]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+[v i1_abs abs `(i  1 e 2 0 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+[v _printf printf `A(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"47 D:\Projects\LED\Alex\Lock\Locker.X\main.c
+[v _GetDev GetDev `A(v  1 e 1 0 ]
+"87
+[v _keys_to_leds keys_to_leds `A(v  1 e 1 0 ]
+"127
+[v _fleds fleds `A(v  1 e 1 0 ]
+"251
+[v _Press_Button_Callback Press_Button_Callback `A(v  1 e 1 0 ]
+"264
+[v _Release_Button_Callback Release_Button_Callback `A(v  1 e 1 0 ]
+"277
+[v _Slider_Callback Slider_Callback `A(v  1 e 1 0 ]
+"286
+[v _main main `A(v  1 e 1 0 ]
+"75 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `A(v  1 e 1 0 ]
+"134
+[v _EUSART_Read EUSART_Read `A(uc  1 e 1 0 ]
+"155
+[v _EUSART_Write EUSART_Write `A(v  1 e 1 0 ]
+"184
+[v _putch putch `A(v  1 e 1 0 ]
+"189
+[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `A(v  1 e 1 0 ]
+"208
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `A(v  1 e 1 0 ]
+"228
+[v _EUSART_SetTxInterruptHandler EUSART_SetTxInterruptHandler `A(v  1 e 1 0 ]
+"232
+[v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `A(v  1 e 1 0 ]
+"83 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `A(v  1 e 1 0 ]
+"106
+[v _I2C1_ISR I2C1_ISR `A(v  1 e 1 0 ]
+"180
+[v _I2C1_StatusCallback I2C1_StatusCallback `A(v  1 e 1 0 ]
+"54 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `A(v  1 e 1 0 ]
+"79
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIAH(v  1 e 1 0 ]
+"92
+[v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIAL(v  1 e 1 0 ]
+"51 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `A(v  1 e 1 0 ]
+"65
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `A(v  1 e 1 0 ]
+"79
+[v _PMD_Initialize PMD_Initialize `A(v  1 e 1 0 ]
+"75 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch.c
+[v _MTOUCH_Initialize MTOUCH_Initialize `A(v  1 e 1 0 ]
+"90
+[v _MTOUCH_Service_Mainloop MTOUCH_Service_Mainloop `A(uc  1 e 1 0 ]
+"118
+[v _MTOUCH_Tick MTOUCH_Tick `A(v  1 e 1 0 ]
+"128
+[v _MTOUCH_needReburst MTOUCH_needReburst `A(uc  1 s 1 MTOUCH_needReburst ]
+"278 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_Initialize MTOUCH_Button_Initialize `A(v  1 e 1 0 ]
+"290
+[v _MTOUCH_Button_InitializeAll MTOUCH_Button_InitializeAll `A(v  1 e 1 0 ]
+"308
+[v _MTOUCH_Button_ServiceAll MTOUCH_Button_ServiceAll `A(v  1 e 1 0 ]
+"319
+[v _Button_Service Button_Service `A(v  1 s 1 Button_Service ]
+"336
+[v _Button_State_Initializing Button_State_Initializing `A(v  1 s 1 Button_State_Initializing ]
+"356
+[v _Button_State_NotPressed Button_State_NotPressed `A(v  1 s 1 Button_State_NotPressed ]
+"402
+[v _Button_State_Pressed Button_State_Pressed `A(v  1 s 1 Button_State_Pressed ]
+"426
+[v _MTOUCH_Button_Tick MTOUCH_Button_Tick `A(v  1 e 1 0 ]
+"434
+[v _Button_Tick_helper Button_Tick_helper `A(v  1 s 1 Button_Tick_helper ]
+"487
+[v _MTOUCH_Button_isPressed MTOUCH_Button_isPressed `A(uc  1 e 1 0 ]
+"504
+[v _MTOUCH_Button_Deviation_Get MTOUCH_Button_Deviation_Get `A(c  1 e 1 0 ]
+"512
+[v _Button_Deviation_Update Button_Deviation_Update `A(v  1 s 1 Button_Deviation_Update ]
+"534
+[v _Button_Unscaled_Deviation_Get Button_Unscaled_Deviation_Get `A(ui  1 s 2 Button_Unscaled_Deviation_Get ]
+"565
+[v _Button_Reading_Update Button_Reading_Update `A(v  1 s 1 Button_Reading_Update ]
+"579
+[v _Button_Reading_Update_Helper Button_Reading_Update_Helper `A(v  1 s 1 Button_Reading_Update_Helper ]
+"592
+[v _Button_Baseline_Initialize Button_Baseline_Initialize `A(v  1 s 1 Button_Baseline_Initialize ]
+"598
+[v _Button_Baseline_Update Button_Baseline_Update `A(v  1 s 1 Button_Baseline_Update ]
+"622
+[v _Button_Baseline_Get_helper Button_Baseline_Get_helper `A(ui  1 s 2 Button_Baseline_Get_helper ]
+"639
+[v _Button_Check_AKS_Block Button_Check_AKS_Block `A(uc  1 s 1 Button_Check_AKS_Block ]
+"679
+[v _Button_DefaultCallback Button_DefaultCallback `A(v  1 s 1 Button_DefaultCallback ]
+"680
+[v _MTOUCH_Button_SetPressedCallback MTOUCH_Button_SetPressedCallback `A(v  1 e 1 0 ]
+"684
+[v _MTOUCH_Button_SetNotPressedCallback MTOUCH_Button_SetNotPressedCallback `A(v  1 e 1 0 ]
+"198 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Initialize MTOUCH_Sensor_Initialize `A(E11066  1 e 1 0 ]
+"267
+[v _Sensor_SetTrisBit Sensor_SetTrisBit `A(v  1 s 1 Sensor_SetTrisBit ]
+[v i1_Sensor_SetTrisBit Sensor_SetTrisBit `A(v  1 s 1 i1_Sensor_SetTrisBit ]
+"323
+[v _MTOUCH_Sensor_ADCC_Initialize MTOUCH_Sensor_ADCC_Initialize `A(v  1 e 1 0 ]
+"362
+[v _MTOUCH_Sensor_InitializeAll MTOUCH_Sensor_InitializeAll `A(v  1 e 1 0 ]
+"374
+[v _MTOUCH_Sensor_SampleAll MTOUCH_Sensor_SampleAll `A(uc  1 e 1 0 ]
+"399
+[v _MTOUCH_Sensor_Scan_Initialize MTOUCH_Sensor_Scan_Initialize `A(v  1 e 1 0 ]
+"411
+[v _Sensor_scheduleNextScan Sensor_scheduleNextScan `A(v  1 s 1 Sensor_scheduleNextScan ]
+[v i1_Sensor_scheduleNextScan Sensor_scheduleNextScan `A(v  1 s 1 i1_Sensor_scheduleNextScan ]
+"474
+[v _Sensor_autoCalibration Sensor_autoCalibration `A(E11066  1 s 1 Sensor_autoCalibration ]
+"522
+[v _Sensor_postAcquisitionProcess Sensor_postAcquisitionProcess `A(v  1 s 1 Sensor_postAcquisitionProcess ]
+"548
+[v _ADCC_ThresholdISR_mTouch ADCC_ThresholdISR_mTouch `A(v  1 e 1 0 ]
+"560
+[v _MTOUCH_Sensor_Service MTOUCH_Sensor_Service `TA(v  1 s 1 MTOUCH_Sensor_Service ]
+"592
+[v _Sensor_setSamplePeriod Sensor_setSamplePeriod `A(v  1 s 1 Sensor_setSamplePeriod ]
+"604
+[v _MTOUCH_Sensor_RawSample_Get MTOUCH_Sensor_RawSample_Get `A(ui  1 e 2 0 ]
+"614
+[v _Sensor_RawSample_Update Sensor_RawSample_Update `A(v  1 s 1 Sensor_RawSample_Update ]
+"631
+[v _medianFilter medianFilter `A(ui  1 s 2 medianFilter ]
+"667
+[v _Sensor_FrequencyHopping Sensor_FrequencyHopping `A(v  1 s 1 Sensor_FrequencyHopping ]
+"687
+[v _Sensor_FrequencyHopping_Autotune_Process Sensor_FrequencyHopping_Autotune_Process `A(v  1 s 1 Sensor_FrequencyHopping_Autotune_Process ]
+"763
+[v _Sensor_DefaultCallback Sensor_DefaultCallback `A(v  1 s 1 Sensor_DefaultCallback ]
+"783
+[v _MTOUCH_Sensor_Enable MTOUCH_Sensor_Enable `A(v  1 e 1 0 ]
+"789
+[v _MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `A(uc  1 e 1 0 ]
+[v i1_MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `A(uc  1 e 1 0 ]
+"797
+[v _Sensor_isEnabled Sensor_isEnabled `A(uc  1 s 1 Sensor_isEnabled ]
+"812
+[v _Sensor_setActive Sensor_setActive `TA(v  1 s 1 Sensor_setActive ]
+"817
+[v _Sensor_setInactive Sensor_setInactive `TA(v  1 s 1 Sensor_setInactive ]
+"836
+[v _MTOUCH_Sensor_Calibrate MTOUCH_Sensor_Calibrate `A(v  1 e 1 0 ]
+"844
+[v _MTOUCH_Sensor_isCalibrated MTOUCH_Sensor_isCalibrated `A(uc  1 e 1 0 ]
+"852
+[v _Sensor_isCalibrated Sensor_isCalibrated `TA(uc  1 s 1 Sensor_isCalibrated ]
+[v i1_Sensor_isCalibrated Sensor_isCalibrated `TA(uc  1 s 1 i1_Sensor_isCalibrated ]
+"857
+[v _Sensor_setCalibrated Sensor_setCalibrated `TA(v  1 s 1 Sensor_setCalibrated ]
+"863
+[v _Sensor_setCalibratAcqTime Sensor_setCalibratAcqTime `TA(v  1 s 1 Sensor_setCalibratAcqTime ]
+"870
+[v _Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `TA(uc  1 s 1 Sensor_isCalibratingAcqTime ]
+[v i1_Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `TA(uc  1 s 1 i1_Sensor_isCalibratingAcqTime ]
+"883
+[v _MTOUCH_Sensor_Sampled_ResetAll MTOUCH_Sensor_Sampled_ResetAll `A(v  1 e 1 0 ]
+"892
+[v _MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `A(uc  1 e 1 0 ]
+[v i1_MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `A(uc  1 e 1 0 ]
+"900
+[v _Sensor_Sampled_Reset Sensor_Sampled_Reset `TA(v  1 s 1 Sensor_Sampled_Reset ]
+"905
+[v _Sensor_setSampled Sensor_setSampled `TA(v  1 s 1 Sensor_setSampled ]
+"910
+[v _MTOUCH_Sensor_isSampling MTOUCH_Sensor_isSampling `A(uc  1 e 1 0 ]
+"191 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_slider.c
+[v _divide divide `A(ui  1 s 2 divide ]
+"251
+[v _get_difference get_difference `A(i  1 s 2 get_difference ]
+"289
+[v _positional_hysteresis positional_hysteresis `A(ui  1 s 2 positional_hysteresis ]
+"341
+[v _moving_average_filter moving_average_filter `A(ui  1 s 2 moving_average_filter ]
+"385
+[v _interpolate interpolate `A(ui  1 s 2 interpolate ]
+"408
+[v _Slider_FindMiddle Slider_FindMiddle `A(i  1 s 2 Slider_FindMiddle ]
+"438
+[v _Slider_FindLeft Slider_FindLeft `A(i  1 s 2 Slider_FindLeft ]
+"484
+[v _Slider_FindRight Slider_FindRight `A(i  1 s 2 Slider_FindRight ]
+"522
+[v _calculate_raw_position calculate_raw_position `A(ui  1 s 2 calculate_raw_position ]
+"628
+[v _calculate_contact_size calculate_contact_size `A(ui  1 s 2 calculate_contact_size ]
+"658
+[v _calculate_position calculate_position `A(ui  1 s 2 calculate_position ]
+"690
+[v _Slider_Service Slider_Service `A(v  1 s 1 Slider_Service ]
+"795
+[v _Slider_Initialize Slider_Initialize `A(v  1 s 1 Slider_Initialize ]
+"904
+[v _MTOUCH_Slider_Position_Get MTOUCH_Slider_Position_Get `A(ui  1 e 2 0 ]
+"949
+[v _MTOUCH_Slider_InitializeAll MTOUCH_Slider_InitializeAll `A(v  1 e 1 0 ]
+"964
+[v _MTOUCH_Slider_ServiceAll MTOUCH_Slider_ServiceAll `A(v  1 e 1 0 ]
+"983
+[v _Slider_DefaultCallback Slider_DefaultCallback `A(v  1 s 1 Slider_DefaultCallback ]
+"984
+[v _MTOUCH_Slider_SetPositionChangedCallback MTOUCH_Slider_SetPositionChangedCallback `A(v  1 e 1 0 ]
+"54 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `A(v  1 e 1 0 ]
+"62 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `A(v  1 e 1 0 ]
+"122
+[v _TMR0_ISR TMR0_ISR `A(v  1 e 1 0 ]
+"135
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `A(v  1 e 1 0 ]
+"139
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `A(v  1 e 1 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic18f24k40.h
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3744 ]
+[s S1799 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+]
+"60
+[u S1801 . 1 `S1799 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES1801  1 e 1 @3744 ]
+"1240
+[v _RXPPS RXPPS `VEuc  1 e 1 @3765 ]
+"1545
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3767 ]
+"1727
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3768 ]
+[s S1940 . 1 `uc 1 INT0IP 1 0 :1:0 
+`uc 1 INT1IP 1 0 :1:1 
+`uc 1 INT2IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIP 1 0 :1:4 
+`uc 1 TMR0IP 1 0 :1:5 
+]
+"2101
+[u S1947 . 1 `S1940 1 . 1 0 ]
+[v _IPR0bits IPR0bits `VES1947  1 e 1 @3770 ]
+[s S1957 . 1 `uc 1 ADIP 1 0 :1:0 
+`uc 1 ADTIP 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIP 1 0 :1:6 
+`uc 1 OSCFIP 1 0 :1:7 
+]
+"2149
+[s S1963 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIP 1 0 :1:7 
+]
+[u S1966 . 1 `S1957 1 . 1 0 `S1963 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES1966  1 e 1 @3771 ]
+[s S1907 . 1 `uc 1 SSPIP 1 0 :1:0 
+`uc 1 BCLIP 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIP 1 0 :1:4 
+`uc 1 RCIP 1 0 :1:5 
+]
+"2251
+[s S1913 . 1 `uc 1 SSP1IP 1 0 :1:0 
+`uc 1 BCL1IP 1 0 :1:1 
+]
+[s S1916 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIP 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIP 1 0 :1:4 
+]
+[u S1921 . 1 `S1907 1 . 1 0 `S1913 1 . 1 0 `S1916 1 . 1 0 ]
+[v _IPR3bits IPR3bits `VES1921  1 e 1 @3773 ]
+[s S2066 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"2488
+[u S2073 . 1 `S2066 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES2073  1 e 1 @3778 ]
+[s S304 . 1 `uc 1 ADIE 1 0 :1:0 
+`uc 1 ADTIE 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"2536
+[s S310 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIE 1 0 :1:7 
+]
+[u S313 . 1 `S304 1 . 1 0 `S310 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES313  1 e 1 @3779 ]
+[s S1979 . 1 `uc 1 SSPIE 1 0 :1:0 
+`uc 1 BCLIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+"2644
+[s S1985 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+]
+[s S1988 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S1993 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S1998 . 1 `S1979 1 . 1 0 `S1985 1 . 1 0 `S1988 1 . 1 0 `S1993 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1998  1 e 1 @3781 ]
+[s S2083 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"2874
+[u S2090 . 1 `S2083 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES2090  1 e 1 @3786 ]
+[s S282 . 1 `uc 1 ADIF 1 0 :1:0 
+`uc 1 ADTIF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"2922
+[s S288 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S291 . 1 `S282 1 . 1 0 `S288 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES291  1 e 1 @3787 ]
+[s S2023 . 1 `uc 1 SSPIF 1 0 :1:0 
+`uc 1 BCLIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+"3027
+[s S2029 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S2035 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S2040 . 1 `S2023 1 . 1 0 `S2029 1 . 1 0 `S2035 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES2040  1 e 1 @3789 ]
+"3815
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3800 ]
+"3955
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3802 ]
+"4107
+[v _OSCEN OSCEN `VEuc  1 e 1 @3804 ]
+"4158
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3805 ]
+"4216
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3806 ]
+"4323
+[v _PMD0 PMD0 `VEuc  1 e 1 @3809 ]
+"4400
+[v _PMD1 PMD1 `VEuc  1 e 1 @3810 ]
+"4464
+[v _PMD2 PMD2 `VEuc  1 e 1 @3811 ]
+"4509
+[v _PMD3 PMD3 `VEuc  1 e 1 @3812 ]
+"4547
+[v _PMD4 PMD4 `VEuc  1 e 1 @3813 ]
+"4589
+[v _PMD5 PMD5 `VEuc  1 e 1 @3814 ]
+"5445
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @3834 ]
+"5489
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3835 ]
+"5577
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @3837 ]
+"5913
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3854 ]
+"5975
+[v _ODCONA ODCONA `VEuc  1 e 1 @3855 ]
+"6037
+[v _WPUA WPUA `VEuc  1 e 1 @3856 ]
+[s S127 . 1 `uc 1 WPUA0 1 0 :1:0 
+`uc 1 WPUA1 1 0 :1:1 
+`uc 1 WPUA2 1 0 :1:2 
+`uc 1 WPUA3 1 0 :1:3 
+`uc 1 WPUA4 1 0 :1:4 
+`uc 1 WPUA5 1 0 :1:5 
+`uc 1 WPUA6 1 0 :1:6 
+`uc 1 WPUA7 1 0 :1:7 
+]
+"6054
+[u S136 . 1 `S127 1 . 1 0 ]
+[v _WPUAbits WPUAbits `VES136  1 e 1 @3856 ]
+"6099
+[v _ANSELA ANSELA `VEuc  1 e 1 @3857 ]
+[s S148 . 1 `uc 1 ANSELA0 1 0 :1:0 
+`uc 1 ANSELA1 1 0 :1:1 
+`uc 1 ANSELA2 1 0 :1:2 
+`uc 1 ANSELA3 1 0 :1:3 
+`uc 1 ANSELA4 1 0 :1:4 
+`uc 1 ANSELA5 1 0 :1:5 
+`uc 1 ANSELA6 1 0 :1:6 
+`uc 1 ANSELA7 1 0 :1:7 
+]
+"6116
+[u S157 . 1 `S148 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES157  1 e 1 @3857 ]
+"6409
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3862 ]
+"6471
+[v _ODCONB ODCONB `VEuc  1 e 1 @3863 ]
+"6533
+[v _WPUB WPUB `VEuc  1 e 1 @3864 ]
+[s S169 . 1 `uc 1 WPUB0 1 0 :1:0 
+`uc 1 WPUB1 1 0 :1:1 
+`uc 1 WPUB2 1 0 :1:2 
+`uc 1 WPUB3 1 0 :1:3 
+`uc 1 WPUB4 1 0 :1:4 
+`uc 1 WPUB5 1 0 :1:5 
+`uc 1 WPUB6 1 0 :1:6 
+`uc 1 WPUB7 1 0 :1:7 
+]
+"6550
+[u S178 . 1 `S169 1 . 1 0 ]
+[v _WPUBbits WPUBbits `VES178  1 e 1 @3864 ]
+"6595
+[v _ANSELB ANSELB `VEuc  1 e 1 @3865 ]
+[s S190 . 1 `uc 1 ANSELB0 1 0 :1:0 
+`uc 1 ANSELB1 1 0 :1:1 
+`uc 1 ANSELB2 1 0 :1:2 
+`uc 1 ANSELB3 1 0 :1:3 
+`uc 1 ANSELB4 1 0 :1:4 
+`uc 1 ANSELB5 1 0 :1:5 
+`uc 1 ANSELB6 1 0 :1:6 
+`uc 1 ANSELB7 1 0 :1:7 
+]
+"6612
+[u S199 . 1 `S190 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES199  1 e 1 @3865 ]
+"6905
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3870 ]
+"6967
+[v _ODCONC ODCONC `VEuc  1 e 1 @3871 ]
+"7029
+[v _WPUC WPUC `VEuc  1 e 1 @3872 ]
+"7091
+[v _ANSELC ANSELC `VEuc  1 e 1 @3873 ]
+"7237
+[v _WPUE WPUE `VEuc  1 e 1 @3885 ]
+"10518
+[v _ADCLK ADCLK `VEuc  1 e 1 @3927 ]
+"10576
+[v _ADREF ADREF `VEuc  1 e 1 @3928 ]
+"10617
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @3929 ]
+"10700
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @3930 ]
+"10777
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @3931 ]
+"10848
+[v _ADACQ ADACQ `VEuc  1 e 1 @3932 ]
+"10918
+[v _ADCAP ADCAP `VEuc  1 e 1 @3933 ]
+"10970
+[v _ADPRE ADPRE `VEuc  1 e 1 @3934 ]
+"11040
+[v _ADPCH ADPCH `VEuc  1 e 1 @3935 ]
+"11098
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @3936 ]
+[s S372 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"11133
+[s S381 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[s S385 . 1 `uc 1 DONE 1 0 :1:0 
+]
+[s S387 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S389 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+]
+[s S391 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S394 . 1 `S372 1 . 1 0 `S381 1 . 1 0 `S385 1 . 1 0 `S387 1 . 1 0 `S389 1 . 1 0 `S391 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES394  1 e 1 @3936 ]
+"11544
+[v _ADRPT ADRPT `VEuc  1 e 1 @3942 ]
+"11691
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @3944 ]
+"11761
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @3945 ]
+"11838
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @3946 ]
+"11908
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @3947 ]
+"11985
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @3948 ]
+"12055
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @3949 ]
+"12272
+[v _ADACC ADACC `VEus  1 e 2 @3952 ]
+"12419
+[v _ADFLTR ADFLTR `VEus  1 e 2 @3954 ]
+"13545
+[v _NVMCON1 NVMCON1 `VEuc  1 e 1 @3969 ]
+"13631
+[v _LATA LATA `VEuc  1 e 1 @3971 ]
+"13743
+[v _LATB LATB `VEuc  1 e 1 @3972 ]
+[s S2610 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"13770
+[s S2619 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S2628 . 1 `S2610 1 . 1 0 `S2619 1 . 1 0 ]
+[v _LATBbits LATBbits `VES2628  1 e 1 @3972 ]
+"13855
+[v _LATC LATC `VEuc  1 e 1 @3973 ]
+[s S3301 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"13882
+[s S3310 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S3319 . 1 `S3301 1 . 1 0 `S3310 1 . 1 0 ]
+[v _LATCbits LATCbits `VES3319  1 e 1 @3973 ]
+"13967
+[v _TRISA TRISA `VEuc  1 e 1 @3976 ]
+[s S227 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"13989
+[u S236 . 1 `S227 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES236  1 e 1 @3976 ]
+"14089
+[v _TRISB TRISB `VEuc  1 e 1 @3977 ]
+[s S248 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"14111
+[u S257 . 1 `S248 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES257  1 e 1 @3977 ]
+"14211
+[v _TRISC TRISC `VEuc  1 e 1 @3978 ]
+"14613
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @3986 ]
+"14633
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @3987 ]
+"14753
+[v _SSP1MSK SSP1MSK `VEuc  1 e 1 @3988 ]
+"14823
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @3989 ]
+[s S2652 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"14972
+[s S2655 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S2658 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S2667 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S2672 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S2677 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S2680 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S2683 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S2688 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S2693 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S2699 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S2708 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S2714 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 I2C_START1 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S2720 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ1 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS1 1 0 :1:5 
+]
+[s S2726 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A1 1 0 :1:5 
+]
+[s S2731 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A1 1 0 :1:5 
+]
+[s S2734 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA1 1 0 :1:5 
+]
+[s S2739 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W1 1 0 :1:2 
+]
+[s S2742 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT1 1 0 :1:5 
+]
+[s S2747 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W2 1 0 :1:2 
+]
+[s S2750 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A2 1 0 :1:5 
+]
+[s S2753 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S2758 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE1 1 0 :1:2 
+]
+[s S2761 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS1 1 0 :1:5 
+]
+[s S2764 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS1 1 0 :1:5 
+]
+[u S2769 . 1 `S2652 1 . 1 0 `S2655 1 . 1 0 `S2658 1 . 1 0 `S2667 1 . 1 0 `S2672 1 . 1 0 `S2677 1 . 1 0 `S2680 1 . 1 0 `S2683 1 . 1 0 `S2688 1 . 1 0 `S2693 1 . 1 0 `S2699 1 . 1 0 `S2708 1 . 1 0 `S2714 1 . 1 0 `S2720 1 . 1 0 `S2726 1 . 1 0 `S2731 1 . 1 0 `S2734 1 . 1 0 `S2739 1 . 1 0 `S2742 1 . 1 0 `S2747 1 . 1 0 `S2750 1 . 1 0 `S2753 1 . 1 0 `S2758 1 . 1 0 `S2761 1 . 1 0 `S2764 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES2769  1 e 1 @3989 ]
+"15277
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @3990 ]
+[s S3001 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"15307
+[s S3007 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S3012 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S3021 . 1 `S3001 1 . 1 0 `S3007 1 . 1 0 `S3012 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES3021  1 e 1 @3990 ]
+"15397
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @3991 ]
+[s S2913 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"15444
+[s S2922 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S2925 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S2932 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S2941 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S2948 . 1 `S2913 1 . 1 0 `S2922 1 . 1 0 `S2925 1 . 1 0 `S2932 1 . 1 0 `S2941 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES2948  1 e 1 @3991 ]
+"15584
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @3992 ]
+"15646
+[v _RC1REG RC1REG `VEuc  1 e 1 @3993 ]
+"15700
+[v _TX1REG TX1REG `VEuc  1 e 1 @3994 ]
+"15761
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @3995 ]
+"15831
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @3996 ]
+"15885
+[v _RC1STA RC1STA `VEuc  1 e 1 @3997 ]
+[s S2345 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"15926
+[s S2354 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S2357 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S2360 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[s S2362 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S2365 . 1 `S2345 1 . 1 0 `S2354 1 . 1 0 `S2357 1 . 1 0 `S2360 1 . 1 0 `S2362 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES2365  1 e 1 @3997 ]
+"16170
+[v _TX1STA TX1STA `VEuc  1 e 1 @3998 ]
+[s S2258 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"16234
+[s S2267 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S2270 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[s S2272 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S2275 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S2278 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S2281 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S2284 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S2287 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S2290 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S2292 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[u S2295 . 1 `S2258 1 . 1 0 `S2267 1 . 1 0 `S2270 1 . 1 0 `S2272 1 . 1 0 `S2275 1 . 1 0 `S2278 1 . 1 0 `S2281 1 . 1 0 `S2284 1 . 1 0 `S2287 1 . 1 0 `S2290 1 . 1 0 `S2292 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES2295  1 e 1 @3998 ]
+"16614
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @3999 ]
+"23072
+[v _TMR0L TMR0L `VEuc  1 e 1 @4051 ]
+"23210
+[v _TMR0H TMR0H `VEuc  1 e 1 @4052 ]
+"23464
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @4053 ]
+"23529
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @4054 ]
+"23640
+[v _PCON0 PCON0 `VEuc  1 e 1 @4055 ]
+[s S1870 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"24382
+[s S1878 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S1882 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S1886 . 1 `S1870 1 . 1 0 `S1878 1 . 1 0 `S1882 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1886  1 e 1 @4082 ]
+"24484
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"24505
+[v _TBLPTR TBLPTR `VEum  1 e 3 @4086 ]
+"26077
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+[v _dpowers dpowers `CA[5]ui  1 s 10 dpowers ]
+"362
+[v _hexpowers hexpowers `CA[4]ui  1 s 8 hexpowers ]
+[s S3050 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+]
+"81 D:\Projects\LED\Alex\Lock\Locker.X\main.c
+[s S3064 . 4 `ui 1 s0 2 0 `ui 1 s1 2 2 ]
+[s S3067 . 4 `ui 1 buttons 2 0 `uc 1 spare 1 2 `uc 1 slider 1 3 ]
+[s S3071 . 4 `[4]uc 1 b 4 0 ]
+[s S3073 . 4 `ul 1 u 4 0 ]
+[u S3075 . 4 `S3050 1 . 2 0 `S3064 1 . 4 0 `S3067 1 . 4 0 `S3071 1 . 4 0 `S3073 1 . 4 0 ]
+[s S3081 . 3 `uc 1 l0 1 0 :1:0 
+`uc 1 l1 1 0 :1:1 
+`uc 1 l2 1 0 :1:2 
+`uc 1 l3 1 0 :1:3 
+`uc 1 l4 1 0 :1:4 
+`uc 1 l5 1 0 :1:5 
+`uc 1 l6 1 0 :1:6 
+`uc 1 l7 1 0 :1:7 
+`uc 1 l8 1 1 :1:0 
+`uc 1 l9 1 1 :1:1 
+`uc 1 l10 1 1 :1:2 
+`uc 1 l11 1 1 :1:3 
+`uc 1 l12 1 1 :1:4 
+`uc 1 l13 1 1 :1:5 
+`uc 1 l14 1 1 :1:6 
+`uc 1 l15 1 1 :1:7 
+`uc 1 l16 1 2 :1:0 
+`uc 1 l17 1 2 :1:1 
+`uc 1 l18 1 2 :1:2 
+`uc 1 l19 1 2 :1:3 
+]
+[u S3104 . 4 `S3081 1 . 3 0 `S3073 1 . 4 0 ]
+[s S3107 . 8 `S3075 1 keys 4 0 `S3104 1 leds 4 4 ]
+[s S3110 . 8 `[8]uc 1 b 8 0 ]
+[u S3112 . 8 `S3107 1 . 8 0 `S3110 1 . 8 0 ]
+[v _inf inf `AS3112  1 e 8 0 ]
+"82
+[v __1ms_c _1ms_c `VAEuc  1 e 1 0 ]
+"83
+[v __iic_timeout_ms _iic_timeout_ms `VAEui  1 e 2 0 ]
+"62 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/eusart.c
+[v _eusartTxHead eusartTxHead `VAEuc  1 e 1 0 ]
+"63
+[v _eusartTxTail eusartTxTail `VAEuc  1 e 1 0 ]
+"64
+[v _eusartTxBuffer eusartTxBuffer `VAE[16]uc  1 e 16 0 ]
+"65
+[v _eusartTxBufferRemaining eusartTxBufferRemaining `VAEuc  1 e 1 0 ]
+"67
+[v _eusartRxHead eusartRxHead `VAEuc  1 e 1 0 ]
+"68
+[v _eusartRxTail eusartRxTail `VAEuc  1 e 1 0 ]
+"69
+[v _eusartRxBuffer eusartRxBuffer `VAE[16]uc  1 e 16 0 ]
+"70
+[v _eusartRxCount eusartRxCount `VAEuc  1 e 1 0 ]
+"86 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/eusart.h
+[v _EUSART_TxDefaultInterruptHandler EUSART_TxDefaultInterruptHandler `A*.37(v  1 e 2 0 ]
+"87
+[v _EUSART_RxDefaultInterruptHandler EUSART_RxDefaultInterruptHandler `A*.37(v  1 e 2 0 ]
+"65 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/i2c1.c
+[v _I2C1_slaveWriteData I2C1_slaveWriteData `VAEuc  1 e 1 0 ]
+"47 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch.c
+[v _mtouch_time_toScan mtouch_time_toScan `Auc  1 s 1 mtouch_time_toScan ]
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"98 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _mtouch_button_init mtouch_button_init `CA[14]S939  1 e 238 0 ]
+"228
+[v _mtouch_button mtouch_button `A[14]S939  1 s 238 mtouch_button ]
+"256
+[v _callback_pressed callback_pressed `A*.37(v  1 s 2 callback_pressed ]
+"257
+[v _callback_notPressed callback_notPressed `A*.37(v  1 s 2 callback_notPressed ]
+"265
+[v _Button_StateMachine Button_StateMachine `A[3]*.37(v  1 e 6 0 ]
+"147 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _callback_sampled callback_sampled `A*.37(v  1 s 2 callback_sampled ]
+"154
+[v _sensor_medianBuffer sensor_medianBuffer `A[14][3]ui  1 s 84 sensor_medianBuffer ]
+"155
+[v _packet_sample packet_sample `A[14]ui  1 s 28 packet_sample ]
+"156
+[v _currentScanSensor currentScanSensor `AE11051  1 s 1 currentScanSensor ]
+"157
+[v _sampling_flag sampling_flag `Auc  1 s 1 sampling_flag ]
+"158
+[v _scanInterrupted scanInterrupted `VAEuc  1 s 1 scanInterrupted ]
+"165
+[v _freq_index freq_index `Auc  1 s 1 freq_index ]
+"166
+[v _freq_hop freq_hop `A[3]uc  1 s 3 freq_hop ]
+"167
+[v _sample_delay sample_delay `Auc  1 s 1 sample_delay ]
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"174
+[v _mtouch_sensor_init mtouch_sensor_init `CA[14]S106  1 e 126 0 ]
+"191
+[v _mtouch_sensor mtouch_sensor `A[14]S106  1 s 126 mtouch_sensor ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"103 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_slider.c
+[v _mtouch_slider mtouch_slider `A[1]S1377  1 s 17 mtouch_slider ]
+"119
+[v _resol_value resol_value `Aui  1 s 2 resol_value ]
+"120
+[v _resol_bits resol_bits `Auc  1 s 1 resol_bits ]
+"121
+[v _middle_node middle_node `Auc  1 s 1 middle_node ]
+"122
+[v _wheel_sensor_middle_channel_zero wheel_sensor_middle_channel_zero `Auc  1 s 1 wheel_sensor_middle_channel_zero ]
+"123
+[v _left_signal left_signal `Ai  1 s 2 left_signal ]
+[v _right_signal right_signal `Ai  1 s 2 right_signal ]
+[v _middle_signal middle_signal `Ai  1 s 2 middle_signal ]
+"144
+[v _callback_position_changed callback_position_changed `A*.37(v  1 s 2 callback_position_changed ]
+"145
+[v mtouch_slider@callback_pressed callback_pressed `A*.37(v  1 s 2 callback_pressed ]
+"146
+[v _callback_released callback_released `A*.37(v  1 s 2 callback_released ]
+"60 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `A*.37(v  1 e 2 0 ]
+"286 D:\Projects\LED\Alex\Lock\Locker.X\main.c
+[v _main main `A(v  1 e 1 0 ]
+{
+"325
+} 0
+"87
+[v _keys_to_leds keys_to_leds `A(v  1 e 1 0 ]
+{
+"125
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 29 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 28 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 26 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 27 ]
+"26
+} 0
+"51 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `A(v  1 e 1 0 ]
+{
+"63
+} 0
+"62 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `A(v  1 e 1 0 ]
+{
+"86
+} 0
+"135
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `A(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 26 ]
+"137
+} 0
+"79 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `A(v  1 e 1 0 ]
+{
+"93
+} 0
+"54 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `A(v  1 e 1 0 ]
+{
+"125
+} 0
+"65 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `A(v  1 e 1 0 ]
+{
+"77
+} 0
+"75 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch.c
+[v _MTOUCH_Initialize MTOUCH_Initialize `A(v  1 e 1 0 ]
+{
+"82
+} 0
+"949 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_slider.c
+[v _MTOUCH_Slider_InitializeAll MTOUCH_Slider_InitializeAll `A(v  1 e 1 0 ]
+{
+"951
+[v MTOUCH_Slider_InitializeAll@slider slider `E11254  1 a 1 29 ]
+"957
+} 0
+"795
+[v _Slider_Initialize Slider_Initialize `A(v  1 s 1 Slider_Initialize ]
+{
+[v Slider_Initialize@sliderName sliderName `E11254  1 a 1 wreg ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"799
+[v Slider_Initialize@slider slider `*.39S1377  1 a 2 27 ]
+"795
+[v Slider_Initialize@sliderName sliderName `E11254  1 a 1 wreg ]
+"797
+[v Slider_Initialize@sliderName sliderName `E11254  1 a 1 26 ]
+"811
+} 0
+"399 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Scan_Initialize MTOUCH_Sensor_Scan_Initialize `A(v  1 e 1 0 ]
+{
+"403
+} 0
+"323
+[v _MTOUCH_Sensor_ADCC_Initialize MTOUCH_Sensor_ADCC_Initialize `A(v  1 e 1 0 ]
+{
+"359
+} 0
+"362
+[v _MTOUCH_Sensor_InitializeAll MTOUCH_Sensor_InitializeAll `A(v  1 e 1 0 ]
+{
+"364
+[v MTOUCH_Sensor_InitializeAll@sensor sensor `E11051  1 a 1 37 ]
+"372
+} 0
+"198
+[v _MTOUCH_Sensor_Initialize MTOUCH_Sensor_Initialize `A(E11066  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_Initialize@sensor sensor `E11051  1 a 1 wreg ]
+[v MTOUCH_Sensor_Initialize@sensor sensor `E11051  1 a 1 wreg ]
+[v MTOUCH_Sensor_Initialize@sensor sensor `E11051  1 a 1 28 ]
+"265
+} 0
+"783
+[v _MTOUCH_Sensor_Enable MTOUCH_Sensor_Enable `A(v  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_Enable@sensor sensor `E11051  1 a 1 wreg ]
+[v MTOUCH_Sensor_Enable@sensor sensor `E11051  1 a 1 wreg ]
+"785
+[v MTOUCH_Sensor_Enable@sensor sensor `E11051  1 a 1 26 ]
+"787
+} 0
+"290 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_InitializeAll MTOUCH_Button_InitializeAll `A(v  1 e 1 0 ]
+{
+"292
+[v MTOUCH_Button_InitializeAll@button button `E11001  1 a 1 37 ]
+"300
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"31
+[v memcpy@s s `*.25Cuc  1 a 2 34 ]
+"30
+[v memcpy@d d `*.39uc  1 a 2 32 ]
+"32
+[v memcpy@tmp tmp `uc  1 a 1 36 ]
+"27
+[v memcpy@d1 d1 `*.39v  1 p 2 26 ]
+[v memcpy@s1 s1 `*.25Cv  1 p 2 28 ]
+[v memcpy@n n `ui  1 p 2 30 ]
+"41
+} 0
+"54 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `A(v  1 e 1 0 ]
+{
+"77
+} 0
+"83 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `A(v  1 e 1 0 ]
+{
+"104
+} 0
+"75 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `A(v  1 e 1 0 ]
+{
+"117
+} 0
+"228
+[v _EUSART_SetTxInterruptHandler EUSART_SetTxInterruptHandler `A(v  1 e 1 0 ]
+{
+[v EUSART_SetTxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 26 ]
+"230
+} 0
+"232
+[v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `A(v  1 e 1 0 ]
+{
+[v EUSART_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 26 ]
+"234
+} 0
+"984 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_slider.c
+[v _MTOUCH_Slider_SetPositionChangedCallback MTOUCH_Slider_SetPositionChangedCallback `A(v  1 e 1 0 ]
+{
+[v MTOUCH_Slider_SetPositionChangedCallback@callback callback `*.37(v  1 p 2 26 ]
+"987
+} 0
+"90 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch.c
+[v _MTOUCH_Service_Mainloop MTOUCH_Service_Mainloop `A(uc  1 e 1 0 ]
+{
+"111
+} 0
+"128
+[v _MTOUCH_needReburst MTOUCH_needReburst `A(uc  1 s 1 MTOUCH_needReburst ]
+{
+"130
+[v MTOUCH_needReburst@needReburst needReburst `uc  1 a 1 26 ]
+"133
+} 0
+"118
+[v _MTOUCH_Tick MTOUCH_Tick `A(v  1 e 1 0 ]
+{
+"121
+} 0
+"426 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_Tick MTOUCH_Button_Tick `A(v  1 e 1 0 ]
+{
+"428
+[v MTOUCH_Button_Tick@i i `uc  1 a 1 30 ]
+"433
+} 0
+"434
+[v _Button_Tick_helper Button_Tick_helper `A(v  1 s 1 Button_Tick_helper ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Tick_helper@button button `*.39S939  1 p 2 26 ]
+"445
+} 0
+"964 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_slider.c
+[v _MTOUCH_Slider_ServiceAll MTOUCH_Slider_ServiceAll `A(v  1 e 1 0 ]
+{
+"966
+[v MTOUCH_Slider_ServiceAll@slider slider `E11254  1 a 1 65 ]
+"975
+} 0
+"690
+[v _Slider_Service Slider_Service `A(v  1 s 1 Slider_Service ]
+{
+[v Slider_Service@sliderName sliderName `E11254  1 a 1 wreg ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"700
+[v Slider_Service@slider slider `*.39S1377  1 a 2 18 ]
+"693
+[v Slider_Service@segment segment `ui  1 a 2 14 ]
+[v Slider_Service@position position `ui  1 a 2 12 ]
+"694
+[v Slider_Service@status status `uc  1 a 1 16 ]
+"695
+[v Slider_Service@valid_contact_found valid_contact_found `uc  1 a 1 11 ]
+"694
+[v Slider_Service@group_status group_status `uc  1 a 1 10 ]
+"690
+[v Slider_Service@sliderName sliderName `E11254  1 a 1 wreg ]
+"694
+[v Slider_Service@sliderName sliderName `E11254  1 a 1 17 ]
+"788
+} 0
+"658
+[v _calculate_position calculate_position `A(ui  1 s 2 calculate_position ]
+{
+"660
+[v calculate_position@raw_position raw_position `ui  1 a 2 4 ]
+[v calculate_position@filtered_position filtered_position `ui  1 a 2 2 ]
+[v calculate_position@position position `ui  1 a 2 0 ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"658
+[v calculate_position@slider slider `*.39S1377  1 p 2 63 ]
+"683
+} 0
+"289
+[v _positional_hysteresis positional_hysteresis `A(ui  1 s 2 positional_hysteresis ]
+{
+"293
+[v positional_hysteresis@distance distance `i  1 a 2 52 ]
+"291
+[v positional_hysteresis@filtered_position filtered_position `ui  1 a 2 48 ]
+[v positional_hysteresis@previous_position previous_position `ui  1 a 2 46 ]
+"294
+[v positional_hysteresis@polarity polarity `uc  1 a 1 51 ]
+"292
+[v positional_hysteresis@hyst_width hyst_width `uc  1 a 1 50 ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"289
+[v positional_hysteresis@slider slider `*.39S1377  1 p 2 39 ]
+[v positional_hysteresis@current_position current_position `ui  1 p 2 41 ]
+"332
+} 0
+"341
+[v _moving_average_filter moving_average_filter `A(ui  1 s 2 moving_average_filter ]
+{
+"345
+[v moving_average_filter@distance distance `i  1 a 2 53 ]
+"344
+[v moving_average_filter@previous_position previous_position `ui  1 a 2 51 ]
+"343
+[v moving_average_filter@dist_temp dist_temp `ui  1 a 2 49 ]
+[v moving_average_filter@filtered_position filtered_position `ui  1 a 2 47 ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"341
+[v moving_average_filter@slider slider `*.39S1377  1 p 2 39 ]
+[v moving_average_filter@current_position current_position `ui  1 p 2 41 ]
+"378
+} 0
+"251
+[v _get_difference get_difference `A(i  1 s 2 get_difference ]
+{
+"253
+[v get_difference@diff diff `i  1 a 2 37 ]
+"254
+[v get_difference@rollover_threshold rollover_threshold `ui  1 a 2 35 ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"251
+[v get_difference@slider slider `*.39S1377  1 p 2 26 ]
+[v get_difference@previous_position previous_position `ui  1 p 2 28 ]
+[v get_difference@current_position current_position `ui  1 p 2 30 ]
+"282
+} 0
+"522
+[v _calculate_raw_position calculate_raw_position `A(ui  1 s 2 calculate_raw_position ]
+{
+"528
+[v calculate_raw_position@position position `ui  1 a 2 61 ]
+[v calculate_raw_position@deadband deadband `ui  1 a 2 57 ]
+[v calculate_raw_position@deadband_set deadband_set `ui  1 a 2 54 ]
+"527
+[v calculate_raw_position@size size `uc  1 a 1 60 ]
+"525
+[v calculate_raw_position@interpolation_bits interpolation_bits `uc  1 a 1 59 ]
+"526
+[v calculate_raw_position@interpolation_scale interpolation_scale `uc  1 a 1 56 ]
+"524
+[v calculate_raw_position@ref_node ref_node `uc  1 a 1 53 ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"522
+[v calculate_raw_position@slider slider `*.39S1377  1 p 2 46 ]
+"621
+} 0
+"385
+[v _interpolate interpolate `A(ui  1 s 2 interpolate ]
+{
+"387
+[v interpolate@rtnval rtnval `ui  1 a 2 44 ]
+"385
+[v interpolate@delta1 delta1 `ui  1 p 2 33 ]
+[v interpolate@delta2 delta2 `ui  1 p 2 35 ]
+[v interpolate@delta3 delta3 `ui  1 p 2 37 ]
+[v interpolate@num_bits num_bits `uc  1 p 1 39 ]
+"401
+} 0
+"191
+[v _divide divide `A(ui  1 s 2 divide ]
+{
+"193
+[v divide@result result `ui  1 a 2 31 ]
+"191
+[v divide@numerator numerator `ui  1 p 2 26 ]
+[v divide@denominator denominator `ui  1 p 2 28 ]
+[v divide@exponent exponent `uc  1 p 1 30 ]
+"242
+} 0
+"628
+[v _calculate_contact_size calculate_contact_size `A(ui  1 s 2 calculate_contact_size ]
+{
+"630
+[v calculate_contact_size@contact_size contact_size `ui  1 a 2 43 ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"628
+[v calculate_contact_size@slider slider `*.39S1377  1 p 2 39 ]
+"651
+} 0
+"484
+[v _Slider_FindRight Slider_FindRight `A(i  1 s 2 Slider_FindRight ]
+{
+"486
+[v Slider_FindRight@ref_node ref_node `uc  1 a 1 35 ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"484
+[v Slider_FindRight@slider slider `*.39S1377  1 p 2 27 ]
+"515
+} 0
+"408
+[v _Slider_FindMiddle Slider_FindMiddle `A(i  1 s 2 Slider_FindMiddle ]
+{
+"411
+[v Slider_FindMiddle@maximumDelta maximumDelta `i  1 a 2 36 ]
+[v Slider_FindMiddle@channelDelta channelDelta `i  1 a 2 34 ]
+"410
+[v Slider_FindMiddle@i i `uc  1 a 1 38 ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"408
+[v Slider_FindMiddle@slider slider `*.39S1377  1 p 2 27 ]
+"431
+} 0
+"438
+[v _Slider_FindLeft Slider_FindLeft `A(i  1 s 2 Slider_FindLeft ]
+{
+"440
+[v Slider_FindLeft@ref_node ref_node `uc  1 a 1 30 ]
+[s S1377 . 17 `CE11254 1 slider 1 0 `CE11251 1 type 1 1 `CE10890 1 startSegment 1 2 `Cuc 1 segmentCount 1 3 `Cuc 1 resolDeadband 1 4 `Cuc 1 positionHysteresis 1 5 `Cui 1 contactThreshold 2 6 `uc 1 rightHysteresis 1 8 `uc 1 leftHysteresis 1 9 `ui 1 rawPosition 2 10 `ui 1 sliderPosition 2 12 `ui 1 contactSize 2 14 `uc 1 sliderStatus 1 16 ]
+"438
+[v Slider_FindLeft@slider slider `*.39S1377  1 p 2 27 ]
+"477
+} 0
+"504 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_Deviation_Get MTOUCH_Button_Deviation_Get `A(c  1 e 1 0 ]
+{
+[v MTOUCH_Button_Deviation_Get@name name `E11001  1 a 1 wreg ]
+[v MTOUCH_Button_Deviation_Get@name name `E11001  1 a 1 wreg ]
+"506
+[v MTOUCH_Button_Deviation_Get@name name `E11001  1 a 1 26 ]
+"510
+} 0
+"277 D:\Projects\LED\Alex\Lock\Locker.X\main.c
+[v _Slider_Callback Slider_Callback `A(v  1 e 1 0 ]
+{
+[v Slider_Callback@slider slider `E11025  1 a 1 wreg ]
+"279
+[v Slider_Callback@pos pos `ui  1 a 2 61 ]
+"277
+[v Slider_Callback@slider slider `E11025  1 a 1 wreg ]
+"279
+[v Slider_Callback@slider slider `E11025  1 a 1 60 ]
+"284
+} 0
+"983 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_slider.c
+[v _Slider_DefaultCallback Slider_DefaultCallback `A(v  1 s 1 Slider_DefaultCallback ]
+{
+} 0
+"904
+[v _MTOUCH_Slider_Position_Get MTOUCH_Slider_Position_Get `A(ui  1 e 2 0 ]
+{
+[v MTOUCH_Slider_Position_Get@sliderName sliderName `E11254  1 a 1 wreg ]
+[v MTOUCH_Slider_Position_Get@sliderName sliderName `E11254  1 a 1 wreg ]
+"906
+[v MTOUCH_Slider_Position_Get@sliderName sliderName `E11254  1 a 1 28 ]
+"912
+} 0
+"487 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_isPressed MTOUCH_Button_isPressed `A(uc  1 e 1 0 ]
+{
+[v MTOUCH_Button_isPressed@name name `E11001  1 a 1 wreg ]
+[v MTOUCH_Button_isPressed@name name `E11001  1 a 1 wreg ]
+"489
+[v MTOUCH_Button_isPressed@name name `E11001  1 a 1 27 ]
+"493
+} 0
+"883 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Sampled_ResetAll MTOUCH_Sensor_Sampled_ResetAll `A(v  1 e 1 0 ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"885
+[v MTOUCH_Sensor_Sampled_ResetAll@sensor sensor `*.39S106  1 a 2 28 ]
+"890
+} 0
+"900
+[v _Sensor_Sampled_Reset Sensor_Sampled_Reset `TA(v  1 s 1 Sensor_Sampled_Reset ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_Sampled_Reset@sensor sensor `*.39S106  1 p 2 26 ]
+"903
+} 0
+"374
+[v _MTOUCH_Sensor_SampleAll MTOUCH_Sensor_SampleAll `A(uc  1 e 1 0 ]
+{
+"376
+[v MTOUCH_Sensor_SampleAll@sensor sensor `E11051  1 a 1 47 ]
+"391
+} 0
+"411
+[v _Sensor_scheduleNextScan Sensor_scheduleNextScan `A(v  1 s 1 Sensor_scheduleNextScan ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"413
+[v Sensor_scheduleNextScan@sensor sensor `*.39S106  1 a 2 32 ]
+"414
+[v Sensor_scheduleNextScan@skipScan skipScan `uc  1 a 1 31 ]
+"415
+[v Sensor_scheduleNextScan@state state `uc  1 a 1 30 ]
+"465
+} 0
+"870
+[v _Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `TA(uc  1 s 1 Sensor_isCalibratingAcqTime ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_isCalibratingAcqTime@sensor sensor `*.39S106  1 p 2 26 ]
+"874
+} 0
+"852
+[v _Sensor_isCalibrated Sensor_isCalibrated `TA(uc  1 s 1 Sensor_isCalibrated ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_isCalibrated@sensor sensor `*.39S106  1 p 2 26 ]
+"855
+} 0
+"267
+[v _Sensor_SetTrisBit Sensor_SetTrisBit `A(v  1 s 1 Sensor_SetTrisBit ]
+{
+[v Sensor_SetTrisBit@sensor sensor `E11051  1 a 1 wreg ]
+[v Sensor_SetTrisBit@sensor sensor `E11051  1 a 1 wreg ]
+[v Sensor_SetTrisBit@TrisBit TrisBit `uc  1 p 1 26 ]
+[v Sensor_SetTrisBit@sensor sensor `E11051  1 a 1 27 ]
+"315
+} 0
+"789
+[v _MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `A(uc  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_isEnabled@sensor sensor `E11051  1 a 1 wreg ]
+[v MTOUCH_Sensor_isEnabled@sensor sensor `E11051  1 a 1 wreg ]
+"791
+[v MTOUCH_Sensor_isEnabled@sensor sensor `E11051  1 a 1 26 ]
+"795
+} 0
+"667
+[v _Sensor_FrequencyHopping Sensor_FrequencyHopping `A(v  1 s 1 Sensor_FrequencyHopping ]
+{
+"669
+[v Sensor_FrequencyHopping@sensor sensor `E11051  1 a 1 46 ]
+"679
+} 0
+"592
+[v _Sensor_setSamplePeriod Sensor_setSamplePeriod `A(v  1 s 1 Sensor_setSamplePeriod ]
+{
+"598
+} 0
+"522
+[v _Sensor_postAcquisitionProcess Sensor_postAcquisitionProcess `A(v  1 s 1 Sensor_postAcquisitionProcess ]
+{
+[v Sensor_postAcquisitionProcess@name name `E11051  1 a 1 wreg ]
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"524
+[v Sensor_postAcquisitionProcess@sensor sensor `*.39S106  1 a 2 44 ]
+"522
+[v Sensor_postAcquisitionProcess@name name `E11051  1 a 1 wreg ]
+"524
+[v Sensor_postAcquisitionProcess@name name `E11051  1 a 1 43 ]
+"540
+} 0
+"817
+[v _Sensor_setInactive Sensor_setInactive `TA(v  1 s 1 Sensor_setInactive ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_setInactive@sensor sensor `*.39S106  1 p 2 26 ]
+"820
+} 0
+"812
+[v _Sensor_setActive Sensor_setActive `TA(v  1 s 1 Sensor_setActive ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_setActive@sensor sensor `*.39S106  1 p 2 26 ]
+"815
+} 0
+"797
+[v _Sensor_isEnabled Sensor_isEnabled `A(uc  1 s 1 Sensor_isEnabled ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_isEnabled@sensor sensor `*.39S106  1 p 2 26 ]
+"803
+} 0
+"614
+[v _Sensor_RawSample_Update Sensor_RawSample_Update `A(v  1 s 1 Sensor_RawSample_Update ]
+{
+"616
+[v Sensor_RawSample_Update@result result `ui  1 a 2 35 ]
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"614
+[v Sensor_RawSample_Update@sensor sensor `*.39S106  1 p 2 33 ]
+"628
+} 0
+"631
+[v _medianFilter medianFilter `A(ui  1 s 2 medianFilter ]
+{
+[v medianFilter@sensor sensor `E11051  1 a 1 wreg ]
+[v medianFilter@sensor sensor `E11051  1 a 1 wreg ]
+"633
+[v medianFilter@bufferIndex bufferIndex `A[14]uc  1 s 14 bufferIndex ]
+"635
+[v medianFilter@sensor sensor `E11051  1 a 1 32 ]
+"665
+} 0
+"763
+[v _Sensor_DefaultCallback Sensor_DefaultCallback `A(v  1 s 1 Sensor_DefaultCallback ]
+{
+} 0
+"687
+[v _Sensor_FrequencyHopping_Autotune_Process Sensor_FrequencyHopping_Autotune_Process `A(v  1 s 1 Sensor_FrequencyHopping_Autotune_Process ]
+{
+"692
+[v Sensor_FrequencyHopping_Autotune_Process@maxVariance maxVariance `ui  1 a 2 39 ]
+[v Sensor_FrequencyHopping_Autotune_Process@variance variance `ui  1 a 2 37 ]
+"690
+[v Sensor_FrequencyHopping_Autotune_Process@frequencyIndex frequencyIndex `uc  1 a 1 43 ]
+"689
+[v Sensor_FrequencyHopping_Autotune_Process@sensor sensor `E11051  1 a 1 42 ]
+"691
+[v Sensor_FrequencyHopping_Autotune_Process@selectedFrequency selectedFrequency `uc  1 a 1 41 ]
+[v Sensor_FrequencyHopping_Autotune_Process@newfrequencyFound newfrequencyFound `uc  1 a 1 36 ]
+"695
+[v Sensor_FrequencyHopping_Autotune_Process@varianceOverLimitCounter varianceOverLimitCounter `A[3]uc  1 s 3 varianceOverLimitCounter ]
+"756
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 26 ]
+"9
+} 0
+"910 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_isSampling MTOUCH_Sensor_isSampling `A(uc  1 e 1 0 ]
+{
+"913
+} 0
+"308 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_ServiceAll MTOUCH_Button_ServiceAll `A(v  1 e 1 0 ]
+{
+"310
+[v MTOUCH_Button_ServiceAll@button button `E11001  1 a 1 14 ]
+"317
+} 0
+"319
+[v _Button_Service Button_Service `A(v  1 s 1 Button_Service ]
+{
+[v Button_Service@name name `E11001  1 a 1 wreg ]
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"321
+[v Button_Service@button button `*.39S939  1 a 2 12 ]
+"319
+[v Button_Service@name name `E11001  1 a 1 wreg ]
+"321
+[v Button_Service@name name `E11001  1 a 1 11 ]
+"334
+} 0
+"892 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `A(uc  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E11051  1 a 1 wreg ]
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E11051  1 a 1 wreg ]
+"894
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E11051  1 a 1 26 ]
+"898
+} 0
+"844
+[v _MTOUCH_Sensor_isCalibrated MTOUCH_Sensor_isCalibrated `A(uc  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_isCalibrated@sensor sensor `E11051  1 a 1 wreg ]
+[v MTOUCH_Sensor_isCalibrated@sensor sensor `E11051  1 a 1 wreg ]
+"846
+[v MTOUCH_Sensor_isCalibrated@sensor sensor `E11051  1 a 1 26 ]
+"850
+} 0
+"356 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _Button_State_NotPressed Button_State_NotPressed `A(v  1 s 1 Button_State_NotPressed ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_State_NotPressed@button button `*.39S939  1 p 2 1 ]
+"400
+} 0
+"336
+[v _Button_State_Initializing Button_State_Initializing `A(v  1 s 1 Button_State_Initializing ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_State_Initializing@button button `*.39S939  1 p 2 1 ]
+"355
+} 0
+"402
+[v _Button_State_Pressed Button_State_Pressed `A(v  1 s 1 Button_State_Pressed ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_State_Pressed@button button `*.39S939  1 p 2 1 ]
+"419
+} 0
+"251 D:\Projects\LED\Alex\Lock\Locker.X\main.c
+[v _Press_Button_Callback Press_Button_Callback `A(v  1 e 1 0 ]
+{
+[v Press_Button_Callback@button button `E10959  1 a 1 wreg ]
+[v Press_Button_Callback@button button `E10959  1 a 1 wreg ]
+"253
+[v Press_Button_Callback@button button `E10959  1 a 1 0 ]
+"262
+} 0
+"679 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _Button_DefaultCallback Button_DefaultCallback `A(v  1 s 1 Button_DefaultCallback ]
+{
+} 0
+"264 D:\Projects\LED\Alex\Lock\Locker.X\main.c
+[v _Release_Button_Callback Release_Button_Callback `A(v  1 e 1 0 ]
+{
+[v Release_Button_Callback@button button `E10959  1 a 1 wreg ]
+[v Release_Button_Callback@button button `E10959  1 a 1 wreg ]
+"266
+[v Release_Button_Callback@button button `E10959  1 a 1 0 ]
+"275
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+[v _printf printf `A(i  1 e 2 0 ]
+{
+"1500
+[v printf@idx idx `uc  1 a 1 50 ]
+"501
+[v printf@width width `i  1 a 2 57 ]
+"528
+[v printf@val val `ui  1 a 2 55 ]
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 51 ]
+"499
+[v printf@c c `c  1 a 1 59 ]
+"508
+[v printf@flag flag `uc  1 a 1 54 ]
+"506
+[v printf@prec prec `c  1 a 1 53 ]
+"464
+[v printf@f f `*.25Cuc  1 p 2 38 ]
+"1541
+} 0
+"184 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/eusart.c
+[v _putch putch `A(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"186
+[v putch@txData txData `uc  1 a 1 27 ]
+"187
+} 0
+"155
+[v _EUSART_Write EUSART_Write `A(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 26 ]
+"177
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 28 ]
+"15
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 30 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 26 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 28 ]
+"53
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 37 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 33 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 35 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 31 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 30 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 26 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 28 ]
+"31
+} 0
+"278 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_Initialize MTOUCH_Button_Initialize `A(v  1 e 1 0 ]
+{
+[v MTOUCH_Button_Initialize@name name `E11001  1 a 1 wreg ]
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"280
+[v MTOUCH_Button_Initialize@button button `*.39S939  1 a 2 28 ]
+"278
+[v MTOUCH_Button_Initialize@name name `E11001  1 a 1 wreg ]
+"280
+[v MTOUCH_Button_Initialize@name name `E11001  1 a 1 27 ]
+"288
+} 0
+"836 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Calibrate MTOUCH_Sensor_Calibrate `A(v  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_Calibrate@sensor sensor `E11051  1 a 1 wreg ]
+[v MTOUCH_Sensor_Calibrate@sensor sensor `E11051  1 a 1 wreg ]
+"838
+[v MTOUCH_Sensor_Calibrate@sensor sensor `E11051  1 a 1 26 ]
+"842
+} 0
+"639 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _Button_Check_AKS_Block Button_Check_AKS_Block `A(uc  1 s 1 Button_Check_AKS_Block ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"643
+[v Button_Check_AKS_Block@check_button check_button `*.39S939  1 a 2 43 ]
+"642
+[v Button_Check_AKS_Block@surplus_deviation_check_button surplus_deviation_check_button `i  1 a 2 41 ]
+[v Button_Check_AKS_Block@surplus_deviation_this_button surplus_deviation_this_button `i  1 a 2 38 ]
+"641
+[v Button_Check_AKS_Block@currentAKSGroup currentAKSGroup `E11411  1 a 1 40 ]
+"639
+[v Button_Check_AKS_Block@button button `*.39S939  1 p 2 34 ]
+"670
+} 0
+"534
+[v _Button_Unscaled_Deviation_Get Button_Unscaled_Deviation_Get `A(ui  1 s 2 Button_Unscaled_Deviation_Get ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Unscaled_Deviation_Get@button button `*.39S939  1 p 2 26 ]
+"537
+} 0
+"598
+[v _Button_Baseline_Update Button_Baseline_Update `A(v  1 s 1 Button_Baseline_Update ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Baseline_Update@button button `*.39S939  1 p 2 26 ]
+"612
+} 0
+"592
+[v _Button_Baseline_Initialize Button_Baseline_Initialize `A(v  1 s 1 Button_Baseline_Initialize ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Baseline_Initialize@button button `*.39S939  1 p 2 29 ]
+"596
+} 0
+"565
+[v _Button_Reading_Update Button_Reading_Update `A(v  1 s 1 Button_Reading_Update ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Reading_Update@button button `*.39S939  1 p 2 33 ]
+"577
+} 0
+"579
+[v _Button_Reading_Update_Helper Button_Reading_Update_Helper `A(v  1 s 1 Button_Reading_Update_Helper ]
+{
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+[v Button_Reading_Update_Helper@button button `*.39S939  1 p 2 29 ]
+"590
+} 0
+"604 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_RawSample_Get MTOUCH_Sensor_RawSample_Get `A(ui  1 e 2 0 ]
+{
+[v MTOUCH_Sensor_RawSample_Get@name name `E11051  1 a 1 wreg ]
+[v MTOUCH_Sensor_RawSample_Get@name name `E11051  1 a 1 wreg ]
+"606
+[v MTOUCH_Sensor_RawSample_Get@name name `E11051  1 a 1 28 ]
+"612
+} 0
+"512 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _Button_Deviation_Update Button_Deviation_Update `A(v  1 s 1 Button_Deviation_Update ]
+{
+"514
+[v Button_Deviation_Update@deviation deviation `l  1 a 4 38 ]
+[s S939 . 17 `CE11001 1 name 1 0 `CE10932 1 sensor 1 1 `E11407 1 state 1 2 `E11411 1 aks_group 1 3 `ui 1 reading 2 4 `ul 1 baseline 4 6 `c 1 deviation 1 10 `ui 1 counter 2 11 `ui 1 baseline_count 2 13 `c 1 threshold 1 15 `uc 1 scaling 1 16 ]
+"512
+[v Button_Deviation_Update@button button `*.39S939  1 p 2 26 ]
+"532
+} 0
+"680
+[v _MTOUCH_Button_SetPressedCallback MTOUCH_Button_SetPressedCallback `A(v  1 e 1 0 ]
+{
+[v MTOUCH_Button_SetPressedCallback@callback callback `*.37(v  1 p 2 26 ]
+"683
+} 0
+"684
+[v _MTOUCH_Button_SetNotPressedCallback MTOUCH_Button_SetNotPressedCallback `A(v  1 e 1 0 ]
+{
+[v MTOUCH_Button_SetNotPressedCallback@callback callback `*.37(v  1 p 2 26 ]
+"687
+} 0
+"47 D:\Projects\LED\Alex\Lock\Locker.X\main.c
+[v _GetDev GetDev `A(v  1 e 1 0 ]
+{
+"62
+[v GetDev@tblptr tblptr `ul  1 a 4 26 ]
+"75
+} 0
+"92 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIAL(v  1 e 1 0 ]
+{
+"119
+} 0
+"122 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `A(v  1 e 1 0 ]
+{
+"132
+} 0
+"139
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `A(v  1 e 1 0 ]
+{
+"147
+} 0
+"127 D:\Projects\LED\Alex\Lock\Locker.X\main.c
+[v _fleds fleds `A(v  1 e 1 0 ]
+{
+"249
+} 0
+"189 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/eusart.c
+[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `A(v  1 e 1 0 ]
+{
+"206
+} 0
+"208
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `A(v  1 e 1 0 ]
+{
+"226
+} 0
+"548 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _ADCC_ThresholdISR_mTouch ADCC_ThresholdISR_mTouch `A(v  1 e 1 0 ]
+{
+"552
+} 0
+"560
+[v _MTOUCH_Sensor_Service MTOUCH_Sensor_Service `TA(v  1 s 1 MTOUCH_Sensor_Service ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"562
+[v MTOUCH_Sensor_Service@sensor sensor `*.39S106  1 a 2 15 ]
+"585
+} 0
+"411
+[v i1_Sensor_scheduleNextScan Sensor_scheduleNextScan `A(v  1 s 1 i1_Sensor_scheduleNextScan ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v i1Sensor_scheduleNextScan@sensor Sensor_scheduleNextScan `*.39S106  1 a 2 10 ]
+[v i1Sensor_scheduleNextScan@skipScan Sensor_scheduleNextScan `uc  1 a 1 9 ]
+[v i1Sensor_scheduleNextScan@state Sensor_scheduleNextScan `uc  1 a 1 8 ]
+"465
+} 0
+"852
+[v i1_Sensor_isCalibrated Sensor_isCalibrated `TA(uc  1 s 1 i1_Sensor_isCalibrated ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v i1Sensor_isCalibrated@sensor sensor `*.39S106  1 p 2 4 ]
+"855
+} 0
+"267
+[v i1_Sensor_SetTrisBit Sensor_SetTrisBit `A(v  1 s 1 i1_Sensor_SetTrisBit ]
+{
+[v i1Sensor_SetTrisBit@sensor sensor `E11051  1 a 1 wreg ]
+[v i1Sensor_SetTrisBit@sensor sensor `E11051  1 a 1 wreg ]
+[v i1Sensor_SetTrisBit@TrisBit TrisBit `uc  1 p 1 4 ]
+[v i1Sensor_SetTrisBit@sensor sensor `E11051  1 a 1 5 ]
+"315
+} 0
+"892
+[v i1_MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `A(uc  1 e 1 0 ]
+{
+[v i1MTOUCH_Sensor_wasSampled@sensor sensor `E11051  1 a 1 wreg ]
+[v i1MTOUCH_Sensor_wasSampled@sensor sensor `E11051  1 a 1 wreg ]
+"894
+[v i1MTOUCH_Sensor_wasSampled@sensor sensor `E11051  1 a 1 4 ]
+"898
+} 0
+"789
+[v i1_MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `A(uc  1 e 1 0 ]
+{
+[v i1MTOUCH_Sensor_isEnabled@sensor sensor `E11051  1 a 1 wreg ]
+[v i1MTOUCH_Sensor_isEnabled@sensor sensor `E11051  1 a 1 wreg ]
+"791
+[v i1MTOUCH_Sensor_isEnabled@sensor sensor `E11051  1 a 1 4 ]
+"795
+} 0
+"905
+[v _Sensor_setSampled Sensor_setSampled `TA(v  1 s 1 Sensor_setSampled ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_setSampled@sensor sensor `*.39S106  1 p 2 4 ]
+"908
+} 0
+"474
+[v _Sensor_autoCalibration Sensor_autoCalibration `A(E11066  1 s 1 Sensor_autoCalibration ]
+{
+"476
+[v Sensor_autoCalibration@name name `E11051  1 a 1 14 ]
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"474
+[v Sensor_autoCalibration@sensor sensor `*.39S106  1 p 2 8 ]
+"513
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\abs.c
+[v i1_abs abs `(i  1 e 2 0 ]
+{
+[v i1abs@a a `i  1 p 2 4 ]
+"9
+} 0
+"870 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v i1_Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `TA(uc  1 s 1 i1_Sensor_isCalibratingAcqTime ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v i1Sensor_isCalibratingAcqTime@sensor sensor `*.39S106  1 p 2 4 ]
+"874
+} 0
+"857
+[v _Sensor_setCalibrated Sensor_setCalibrated `TA(v  1 s 1 Sensor_setCalibrated ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_setCalibrated@sensor sensor `*.39S106  1 p 2 4 ]
+"861
+} 0
+"863
+[v _Sensor_setCalibratAcqTime Sensor_setCalibratAcqTime `TA(v  1 s 1 Sensor_setCalibratAcqTime ]
+{
+[s S106 . 9 `CE11051 1 sensor_name 1 0 `Cuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 acitve 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_setCalibratAcqTime@sensor sensor `*.39S106  1 p 2 4 ]
+"868
+} 0
+"79 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIAH(v  1 e 1 0 ]
+{
+"90
+} 0
+"106 D:\Projects\LED\Alex\Lock\Locker.X\mcc_generated_files/i2c1.c
+[v _I2C1_ISR I2C1_ISR `A(v  1 e 1 0 ]
+{
+"108
+[v I2C1_ISR@i2c_data i2c_data `uc  1 a 1 1 ]
+"156
+} 0
+"180
+[v _I2C1_StatusCallback I2C1_StatusCallback `A(v  1 e 1 0 ]
+{
+[v I2C1_StatusCallback@i2c_bus_state i2c_bus_state `E10849  1 a 1 wreg ]
+[v I2C1_StatusCallback@i2c_bus_state i2c_bus_state `E10849  1 a 1 wreg ]
+"198
+[v I2C1_StatusCallback@eepromAddress eepromAddress `Auc  1 s 1 eepromAddress ]
+"199
+[v I2C1_StatusCallback@slaveWriteType slaveWriteType `Auc  1 s 1 slaveWriteType ]
+"180
+[v I2C1_StatusCallback@i2c_bus_state i2c_bus_state `E10849  1 a 1 0 ]
+"254
+} 0
